@@ -1,7 +1,28 @@
 IMAGE ASSETS:
 ![image](https://user-images.githubusercontent.com/70523057/134815730-35d9d6b3-f358-4e36-8f01-fb61e8c3d37b.png)
 
+Image
 
+![image](https://user-images.githubusercontent.com/70523057/134947261-f82f1ed6-a0e9-4238-b80e-1ae59cd8d223.png)
+
+these are the images file
+
+![image](https://user-images.githubusercontent.com/70523057/134947737-058f2100-e170-40f0-a224-b7999a23d994.png)
+
+create a new folder for all the image assets-
+
+![image](https://user-images.githubusercontent.com/70523057/134947837-10452854-2b05-4463-bc93-9d4f70bc9964.png)
+
+
+Clip Art
+
+![image](https://user-images.githubusercontent.com/70523057/134946807-e33d1b9f-9d7a-4101-a3fb-66fda3676154.png)
+ Text
+ 
+ ![image](https://user-images.githubusercontent.com/70523057/134947100-ff560f13-4d6b-4f1f-a752-d52016734938.png)
+
+
+-----------------
 
 VECTOR ASSETS:
 ![image](https://user-images.githubusercontent.com/70523057/134816111-9930b272-c115-4c73-90df-cddfbfe1e74c.png)
