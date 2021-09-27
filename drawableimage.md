@@ -27,8 +27,8 @@ here it is android_image.png
 
    <ImageView
        android:id="@+id/image"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
+       android:layout_width="150dp"
+       android:layout_height="150dp"
        android:src="@drawable/android_image"/>
 
 </LinearLayout>
