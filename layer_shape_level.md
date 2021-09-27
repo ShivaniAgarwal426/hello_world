@@ -49,6 +49,7 @@ activity_maim.xml
 </RelativeLayout>
 ```
 Output in Screen-
+
 ![image](https://user-images.githubusercontent.com/70523057/134816702-ec6a38fd-ea17-4003-9cc6-190d072454a3.png)
 
 
