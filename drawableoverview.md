@@ -110,7 +110,7 @@ There are several different types of drawables:
    </layer-list>
   ```
 - **Example:**
-  1. create resource xml file-
+  1. Right click on drawable folder and create resource xml file-
   
      ![image](https://user-images.githubusercontent.com/70523057/134816211-bb12e446-553e-48e3-832f-5d820054ff4e.png)
   
@@ -215,7 +215,45 @@ There are several different types of drawables:
    </selector>
   ```
 - **Example:**
- 
+  1. Create drawable resource xml file by selecting root element and name the file
+     ![image](https://user-images.githubusercontent.com/70523057/134852542-6d4579ab-61a0-4a17-a72b-df3647c52311.png)
+  
+  2. statelist.xml
+  
+     ```bash
+     <?xml version="1.0" encoding="utf-8"?>
+     <selector xmlns:android="http://schemas.android.com/apk/res/android">
+             <item android:drawable="@color/teal_700" android:state_selected="true"></item>
+             <item android:drawable="@color/purple_700" android:state_pressed="true"></item>
+             <item android:drawable="@color/black"></item>
+     </selector>
+     ```
+  
+  3. activity_main.xml
+  
+     ```bash
+     <?xml version="1.0" encoding="utf-8"?>
+     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         xmlns:app="http://schemas.android.com/apk/res-auto"
+         xmlns:tools="http://schemas.android.com/tools"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         tools:context=".MainActivity">
+     
+     <androidx.appcompat.widget.AppCompatButton
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@android:string/ok"
+        android:textColor="@color/white"
+        android:background="@drawable/statelist"
+         android:layout_centerInParent="true"/>
+     
+     </RelativeLayout>
+     ```
+  4. Output on Android Screen or Emulator-
+     
+  
    
       
 #### 2.1.3 Level List
@@ -235,6 +273,56 @@ There are several different types of drawables:
    </level-list>
   ```
 - **Example:**
+  1. Right click on drawable folder and create resource xml file
+     ![image](https://user-images.githubusercontent.com/70523057/134896654-40d3eaca-bc9d-4bca-80a9-4077f9e8da74.png)
+  2. levels.xml
+     ```bash
+     <?xml version="1.0" encoding="utf-8"?>
+     <level-list xmlns:android="http://schemas.android.com/apk/res/android">
+     
+         <item
+             android:drawable="@color/gray"
+             android:maxLevel="1" />
+         <item
+             android:drawable="@color/teal_200"
+             android:maxLevel="2" />
+         <item
+             android:drawable="@color/teal_700"
+             android:maxLevel="3" />
+     
+     </level-list>
+     ```
+  
+  3. activity_main.xml
+     ```bash
+     <?xml version="1.0" encoding="utf-8"?>
+     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         xmlns:app="http://schemas.android.com/apk/res-auto"
+         xmlns:tools="http://schemas.android.com/tools"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         tools:context=".MainActivity">
+     
+                <ImageView
+                    android:id="@+id/level_list"
+                    android:layout_width="200dp"
+                    android:layout_height="400dp"
+                    android:src="@drawable/levels"
+                    android:layout_centerInParent="true"/>
+     
+     </RelativeLayout>
+     ```
+  
+  4. MainActivity.java
+     ```bash
+     ImageView image= (ImageView)findViewById(R.id.level_list);
+     image.setImageLevel(3);
+     ```
+  > Here, the maximum level of the level list is 3, therefore we can see the @color/teal_700 which of level 3,
+  
+  5. Output on Android Screen or Emulator
+     ![IMG_20210928_113000](https://user-images.githubusercontent.com/70523057/135048782-75459cf1-2125-422e-9d6c-4eb1600e6405.jpg)
+<br>
 
 #### 2.1.4 Shape Drawable
 > An XML file that defines a geometric shape, including colors and gradients. Creates a GradientDrawable by customising.
@@ -323,7 +411,6 @@ There are several different types of drawables:
   4. Output on Android Screen or Emulator-
      ![image](https://user-images.githubusercontent.com/70523057/135036623-e87d0a56-7f36-4d80-99db-80546b858d92.png)
 
-
 #### 2.1.5 Scale Drawable
 > An XML file that defines a drawable which can  changes the size of another Drawable based on its current level value. 
 
@@ -342,6 +429,41 @@ There are several different types of drawables:
        android:scaleWidth="percentage" />
   ```
 - **Example:**
+  1. Create drawable resource xml file by selecting root element and name the file
+     ![image](https://user-images.githubusercontent.com/70523057/134942442-d8fcb786-e826-4f03-b3c4-58cbf9f9261d.png)
+  
+  2. scale.xml
+     ```bash
+     <?xml version="1.0" encoding="utf-8"?>
+     <scale xmlns:android="http://schemas.android.com/apk/res/android"
+         android:drawable="@drawable/flower3"
+         android:scaleGravity="center"
+         android:scaleHeight="50%"
+         android:scaleWidth="50%"
+         />
+     ```
+  3. activity_main.xml
+     ```bash
+     <?xml version="1.0" encoding="utf-8"?>
+     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         xmlns:app="http://schemas.android.com/apk/res-auto"
+         xmlns:tools="http://schemas.android.com/tools"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         tools:context=".MainActivity">
+     
+                <ImageView
+                    android:id="@+id/scaling_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/scale"
+                    android:layout_centerInParent="true"/>
+     
+     </RelativeLayout>
+     ```
+  4. Output on Android Screen or Emulator-
+     ![IMG_20210928_113019](https://user-images.githubusercontent.com/70523057/135052768-78c260c5-88d4-4dc8-9077-d0e03167b487.jpg)
+     ![IMG_20210928_113108](https://user-images.githubusercontent.com/70523057/135052761-4e32b89e-5b5c-4feb-ac93-df2ab81d5256.jpg)
 
 
 #### 2.1.6 Clip Drawable
@@ -363,9 +485,54 @@ There are several different types of drawables:
                         "center" | "fill" | "clip_vertical" | "clip_horizontal"] />
   ```
 - **Example:**
+  1. Create drawable resource xml file by selecting root element and name the file
+     ![image](https://user-images.githubusercontent.com/70523057/134941927-60cd1b0e-10bf-46b6-9c64-0061346ea6a3.png)
+  
+  2. clip.xml
+     ```bash
+     <?xml version="1.0" encoding="utf-8"?>
+     <clip xmlns:android="http://schemas.android.com/apk/res/android"
+         android:drawable="@drawable/flower2"
+         android:clipOrientation="vertical"
+         android:gravity="bottom"
+         />
+     ```
+  3. activity_main.xml
+  
+     ```bash
+     <?xml version="1.0" encoding="utf-8"?>
+     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         xmlns:app="http://schemas.android.com/apk/res-auto"
+         xmlns:tools="http://schemas.android.com/tools"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         tools:context=".MainActivity"
+         android:background="@color/black">
+     
+                <ImageView
+                    android:id="@+id/clipping_image"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/clip"
+                    android:layout_centerInParent="true"/>
+     
+     </RelativeLayout>
+     ```
+   4. MainActivity.java
+      ```bash
+      ImageView imageview = (ImageView) findViewById(R.id.clipping_image);
+      Drawable drawable = imageview.getBackground();
+      if (drawable instanceof ClipDrawable) {
+           ((ClipDrawable)drawable).setLevel(drawable.getLevel() + 5000);
+      }
+     ```
+     
+     
+v.  Output on Android Screen or Emulator- 
+       ![IMG_20210928_113049](https://user-images.githubusercontent.com/70523057/135051034-3ee32c40-041f-48fe-8923-8ddbd03d4801.jpg)
 
-
-#### 2.1.7 Transition/ Animated Drawable
+     
+#### 2.1.7 Transition Drawable
 > A TransitionDrawable is a drawable object that can cross-fade between the two drawable resources.
 
 > Each drawable is represented by an `<item>` element inside a single `<transition>` element. 
@@ -389,6 +556,126 @@ Only  two items are supported.
    </transition>
   ```
 - **Example:**
+  1. Create drawable resource xml file by selecting root element and name the file
+     ![image](https://user-images.githubusercontent.com/70523057/134930432-c9f24a72-c5d2-4ddb-b614-6f54c7bf8b41.png)
+  2. transitions.xml
+     ```bash
+     <?xml version="1.0" encoding="utf-8"?>
+     <transition xmlns:android="http://schemas.android.com/apk/res/android">
+         <item android:drawable="@drawable/flower1"
+             android:top="20dp"
+             android:right="300dp"
+             android:bottom="300dp"
+             android:left="20dp" />
+         <item android:drawable="@drawable/flower2"
+             android:top="200dp"
+             android:right="50dp"
+             android:bottom="50dp"
+             android:left="200dp" />
+     </transition>
+     ```
+
+  3. activity_main.xml
+     ```bash
+     <?xml version="1.0" encoding="utf-8"?>
+     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         xmlns:app="http://schemas.android.com/apk/res-auto"
+         xmlns:tools="http://schemas.android.com/tools"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         tools:context=".MainActivity">
+     
+                <ImageView
+                    android:id="@+id/transition"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/transitions"
+                    android:layout_centerInParent="true"/>
+     
+     </RelativeLayout>
+     ```
+  4. MainActivity.java
+     ```bash
+     ImageView transit = (ImageView) findViewById(R.id.transition);
+             Drawable drawable = transit.getDrawable();
+             if (drawable instanceof TransitionDrawable) {
+                 ((TransitionDrawable) drawable).startTransition(1000);
+              } 
+     ```
+
+  5. Output on Android Screen or Emulator-
+     
+     
+
+
+
+#### 2.1.8 Animation List Drawable
+> An object used to create **frame-by-frame** animations, defined by a series of Drawable objects, which can be used as a View object's background.
+To run the animation we call `start()`.
+
+> An AnimationDrawable defined in XML consists of a single `<animation-list>` element and a series of nested `<item>` tags. Each item defines a _frame_ of the animation. 
+
+- **syntax:**
+  ```bash
+   <?xml version="1.0" encoding="utf-8"?>
+<animation-list android:id="@+id/selected" android:oneshot="false">
+    <item android:drawable="@drawable/filename0" android:duration="milliseconds time" />
+    <item android:drawable="@drawable/filename1" android:duration="milliseconds time" />
+    <item android:drawable="@drawable/filename2" android:duration="milliseconds time" />
+ </animation-list>
+  ```
+- **Example:**
+  1. Create drawable resource xml file by selecting root element and name the file
+     ![image](https://user-images.githubusercontent.com/70523057/134929947-9cd81aa0-42dd-46ba-874c-34dfc7accdf5.png)
+  2. Now create different vector assets to show the animation inside the res/drawable/ folder
+  
+  3. animations.xml
+     ```bash
+     <?xml version="1.0" encoding="utf-8"?>
+     <animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+         <item android:drawable="@drawable/ic_baseline_looks_4_24" android:duration="100" />
+         <item android:drawable="@drawable/ic_baseline_looks_3_24" android:duration="100" />
+         <item android:drawable="@drawable/ic_baseline_looks_two_24" android:duration="100" />
+         <item android:drawable="@drawable/ic_baseline_looks_one_24" android:duration="100" />
+     </animation-list>
+     ```
+  
+  4. activity_main.xml
+     ```bash
+     <?xml version="1.0" encoding="utf-8"?>
+     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         xmlns:app="http://schemas.android.com/apk/res-auto"
+         xmlns:tools="http://schemas.android.com/tools"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         tools:context=".MainActivity">
+     
+                <ImageView
+                    android:id="@+id/changing_numbers"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/animations"
+                    android:layout_centerInParent="true"/>
+     
+     </RelativeLayout>
+     ```
+  
+  5. MainActivity.java
+  > Here, we have load the ImageView which host the animation and set its background to our AnimationDrawable XML resource.
+          
+     ```bash
+             ImageView img = (ImageView)findViewById(R.id.changing_numbers);
+             img.setBackgroundResource(R.drawable.animations);
+             // Get the background, which has been compiled to an AnimationDrawable object.
+             AnimationDrawable frameAnimation = (AnimationDrawable) img.getBackground();
+             // Start the animation.
+             frameAnimation.start();
+     ```
+
+  6. Output on Android Screen or Emulator-
+     
+     
+
 
 
 
