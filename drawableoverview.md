@@ -760,3 +760,8 @@ To run the animation we call `start()`.
      </vector>
      ```
   
+
+## References:
+- [Android Studio Developer](https://developer.android.com/guide/topics/resources/drawable-resource)
+- [Geeks for Geeks](https://www.geeksforgeeks.org/how-to-create-drawable-resource-xml-file-in-android-studio/)
+- [YouTube](https://www.youtube.com/results?search_query=drawable+in+android+studio/)
