@@ -12,20 +12,21 @@ A drawable resource is a concept for a graphic that is to be displayed on the sc
 There are several different types of drawables:
 
 1. Inflate/paste an image resource (bitmap Image or file) in your project.
-
 2. Create an XML resource file that defines the drawable properties.
 
-   2.1. Create Custom Resource files.
-
-       2.1.1. shape.
-
-       2.1.2. selector.
-
-       2.1.3. layer-list.
-
-   2.2. Create Image Assets.
-
-   2.3. Create Vector Assets.
+    2.1. Create Custom Resource files.
+ 
+           2.1.1 Layer List 
+           2.1.2 State List (Selector)
+           2.1.3 Level List
+           2.1.4 Shape Drawable
+           2.1.5 Scale Drawable
+           2.1.6 Clip Drawable
+           2.1.7 Transition Drawable
+           2.1.8 Animation list Drawable       
+    2.2. Create Image Assets.
+    
+    2.3. Create Vector Assets.
 
 
 
