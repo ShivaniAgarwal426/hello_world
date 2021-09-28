@@ -1,6 +1,7 @@
+1. Create drawable resource xml file by selecting root element and name the file
 ![image](https://user-images.githubusercontent.com/70523057/134852542-6d4579ab-61a0-4a17-a72b-df3647c52311.png)
 <br>
-statelist.xml
+2. statelist.xml
 ```bash
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
@@ -10,7 +11,7 @@ statelist.xml
 </selector>
 ```
 <br>
-activity_main.xml
+3. activity_main.xml
 
 ```bash
 <?xml version="1.0" encoding="utf-8"?>
@@ -32,10 +33,9 @@ activity_main.xml
 
 </RelativeLayout>
 ```
-<br><br>
-output-
+<br>
+4. Output on Android Screen or Emulator-
 
-screenrecording in phone.
 
 
 -------------
@@ -82,7 +82,7 @@ activity_main.xml
         }
 ```
 
-output
+Output on Android Screen or Emulator-
 
 ![image](https://user-images.githubusercontent.com/70523057/134943050-ebb6a6e1-88c2-404c-8378-06981b6cb9ab.png)
 
@@ -122,7 +122,8 @@ activity_main.xml
 
 </RelativeLayout>
 ```
- output
+ Output on Android Screen or Emulator-
+
 
 ------------------------------------------------------------------------------------------------------------------------------
 
