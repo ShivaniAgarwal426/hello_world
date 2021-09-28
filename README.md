@@ -41,6 +41,7 @@ git pull.....
            2.1.4 Shape Drawable
            2.1.5 Scale Drawable
            2.1.6 Clip Drawable
-           2.1.7 Animated Drawable       
+           2.1.7 Transition Drawable
+           2.1.8 Animation list Drawable       
     2.2. Create Image Assets.
     2.3. Create Vector Assets.
