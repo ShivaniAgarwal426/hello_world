@@ -252,6 +252,8 @@ There are several different types of drawables:
      </RelativeLayout>
      ```
   4. Output on Android Screen or Emulator-
+
+
      https://user-images.githubusercontent.com/70523057/135059529-ad0da019-ca22-4639-a174-624e3d3c8b3d.mp4
 
 
@@ -606,6 +608,8 @@ Only  two items are supported.
 
   5. Output on Android Screen or Emulator-
      
+
+     https://user-images.githubusercontent.com/70523057/135058728-8b4f09f2-4730-49d6-a33f-f5179ac574dd.mp4
      
 
 
@@ -676,11 +680,13 @@ To run the animation we call `start()`.
 
   6. Output on Android Screen or Emulator-
      
+
+     https://user-images.githubusercontent.com/70523057/135058744-c9efcc42-fcbd-480d-884a-53090c2a89bf.mp4
      
 
 
 
-
+<br><br>
 ### 2.2. Create Image Assets.
 > The drawable folder contains the different types of images used for the development of the application. So we need images in android applications to provide more user-friendly behavior & functionality. 
 
