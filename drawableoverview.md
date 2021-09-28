@@ -618,13 +618,14 @@ To run the animation we call `start()`.
 - **syntax:**
   ```bash
    <?xml version="1.0" encoding="utf-8"?>
-<animation-list android:id="@+id/selected" android:oneshot="false">
-    <item android:drawable="@drawable/filename0" android:duration="milliseconds time" />
-    <item android:drawable="@drawable/filename1" android:duration="milliseconds time" />
-    <item android:drawable="@drawable/filename2" android:duration="milliseconds time" />
- </animation-list>
+   <animation-list android:id="@+id/selected" android:oneshot="false">
+       <item android:drawable="@drawable/filename0" android:duration="milliseconds time" />
+       <item android:drawable="@drawable/filename1" android:duration="milliseconds time" />
+       <item android:drawable="@drawable/filename2" android:duration="milliseconds time" />
+    </animation-list>
   ```
 - **Example:**
+
   1. Create drawable resource xml file by selecting root element and name the file
      ![image](https://user-images.githubusercontent.com/70523057/134929947-9cd81aa0-42dd-46ba-874c-34dfc7accdf5.png)
   2. Now create different vector assets to show the animation inside the res/drawable/ folder
@@ -661,7 +662,6 @@ To run the animation we call `start()`.
      ```
   
   5. MainActivity.java
-  > Here, we have load the ImageView which host the animation and set its background to our AnimationDrawable XML resource.
           
      ```bash
              ImageView img = (ImageView)findViewById(R.id.changing_numbers);
@@ -671,6 +671,7 @@ To run the animation we call `start()`.
              // Start the animation.
              frameAnimation.start();
      ```
+    > Here, we have load the ImageView which host the animation and set its background to our AnimationDrawable XML resource.
 
   6. Output on Android Screen or Emulator-
      
