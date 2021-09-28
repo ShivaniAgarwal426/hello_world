@@ -252,8 +252,9 @@ There are several different types of drawables:
      </RelativeLayout>
      ```
   4. Output on Android Screen or Emulator-
-     
-  
+     https://user-images.githubusercontent.com/70523057/135059529-ad0da019-ca22-4639-a174-624e3d3c8b3d.mp4
+
+
    
       
 #### 2.1.3 Level List
