@@ -1,7 +1,8 @@
 1. Create drawable resource xml file by selecting root element and name the file
 ![image](https://user-images.githubusercontent.com/70523057/134852542-6d4579ab-61a0-4a17-a72b-df3647c52311.png)
-<br>
+
 2. statelist.xml
+
 ```bash
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
@@ -10,7 +11,7 @@
         <item android:drawable="@color/black"></item>
 </selector>
 ```
-<br>
+
 3. activity_main.xml
 
 ```bash
@@ -40,10 +41,10 @@
 
 -------------
 #clip
-create xml file
+1. Create drawable resource xml file by selecting root element and name the file
 ![image](https://user-images.githubusercontent.com/70523057/134941927-60cd1b0e-10bf-46b6-9c64-0061346ea6a3.png)
 
-clip.xml
+2. clip.xml
 ```bash
 <?xml version="1.0" encoding="utf-8"?>
 <clip xmlns:android="http://schemas.android.com/apk/res/android"
@@ -52,7 +53,7 @@ clip.xml
     android:gravity="bottom"
     />
 ```
-activity_main.xml
+3. activity_main.xml
 
 ```bash
 <?xml version="1.0" encoding="utf-8"?>
@@ -73,7 +74,7 @@ activity_main.xml
 
 </RelativeLayout>
 ```
- java
+ MainActivity.java
  ```bash
         ImageView imageview = (ImageView) findViewById(R.id.clipping_image);
         Drawable drawable = imageview.getBackground();
@@ -81,8 +82,7 @@ activity_main.xml
             ((ClipDrawable)drawable).setLevel(drawable.getLevel() + 5000);
         }
 ```
-
-Output on Android Screen or Emulator-
+4. Output on Android Screen or Emulator-
 
 ![image](https://user-images.githubusercontent.com/70523057/134943050-ebb6a6e1-88c2-404c-8378-06981b6cb9ab.png)
 
@@ -90,7 +90,7 @@ Output on Android Screen or Emulator-
 -----------
 #scale
 
-create xml file
+1. Create drawable resource xml file by selecting root element and name the file
 ![image](https://user-images.githubusercontent.com/70523057/134942442-d8fcb786-e826-4f03-b3c4-58cbf9f9261d.png)
 
 scale.xml
