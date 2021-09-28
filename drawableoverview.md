@@ -46,7 +46,41 @@ There are several different types of drawables:
        android:src="@drawable/myimage" />
    ```
 - **Example:**
-
+   1. Copy from system-
+   
+       ![image](https://user-images.githubusercontent.com/70523057/134815113-4d258e41-5bf1-4c4f-9f1f-89f110dcd049.png)
+   
+   2. Right click and paste in drawable folder-
+     ![image](https://user-images.githubusercontent.com/70523057/134814909-9a76c86d-8e50-4260-b14d-c1ce23a651ef.png)
+   3. Add image to drawable folder-
+     ![image](https://user-images.githubusercontent.com/70523057/134815138-e2a5eb98-f4d1-4544-a20d-8de428b9c64d.png)
+   4. Give any name to the image-
+   here it is android_image.png
+     ![image](https://user-images.githubusercontent.com/70523057/134815201-22d49228-daf2-4663-a84d-d5a95a21fb70.png)
+   5. Inside the xml activity page add ImageView widget-
+   
+     ```bash
+     <?xml version="1.0" encoding="utf-8"?>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity">
+        
+           <ImageView
+               android:id="@+id/image"
+               android:layout_width="150dp"
+               android:layout_height="150dp"
+               android:src="@drawable/android_image"/>
+        
+        </LinearLayout>
+     ```
+     > here, src is an attribute used to set a source file or you can say image in your imageview
+   
+   6. Drawable Image on Android Screen-
+   
+    ![IMG_20210928_113049](https://user-images.githubusercontent.com/70523057/135032021-dfc62b6e-4cdd-470f-8c45-edb972a5f442.jpg)
 
 
 ## 2. Create an XML resource file that defines the drawable properties:
@@ -54,7 +88,7 @@ There are several different types of drawables:
 ### 2.1. Create Custom Resource files. 
 - **file location:**
    > res/drawable/filename.xml 
-> _STEPS_ <br>
+- _STEPS_ <br>
 1. 
 2.
 3.
@@ -274,9 +308,34 @@ Only  two items are supported.
 > Here, we are going to discuss how to add an image to the drawable folder with Image Asset method.
 
 > _Steps_
-  1. <br>
-  2. <br>
-  3. <br>
+  1. Right click on drawable folder and create **Image Assets**
+     ![image](https://user-images.githubusercontent.com/70523057/134815730-35d9d6b3-f358-4e36-8f01-fb61e8c3d37b.png)
+  
+  2. There are all over 3 types of assets inside, 
+     we will be focusing at **image type**:
+  
+      ![image](https://user-images.githubusercontent.com/70523057/134947261-f82f1ed6-a0e9-4238-b80e-1ae59cd8d223.png)
+  
+  3. These are the images file
+  
+     ![image](https://user-images.githubusercontent.com/70523057/134947737-058f2100-e170-40f0-a224-b7999a23d994.png)
+  
+  4. Created a new folder for all the image assets according to their density-
+  
+     ![image](https://user-images.githubusercontent.com/70523057/134947837-10452854-2b05-4463-bc93-9d4f70bc9964.png)
+  
+  
+  5. Type 2: **Clip Art**
+  
+     ![image](https://user-images.githubusercontent.com/70523057/134946807-e33d1b9f-9d7a-4101-a3fb-66fda3676154.png)
+     
+  6. Type 3: **Text**
+   
+     ![image](https://user-images.githubusercontent.com/70523057/134947100-ff560f13-4d6b-4f1f-a752-d52016734938.png)
+
+     `#NOTE:` 
+     :-
+     For more you can refer [Drawable pixel density](https://developer.android.com/training/multiscreen/screendensities)
 
 
 ### 2.3. Create Vector Assets.
@@ -286,7 +345,32 @@ Only  two items are supported.
 > The same file can be resized for different screen sizes without loss of image quality which results in smaller APK files and less developer maintenance. We can also use vector images for animation. 
 
 > _Steps_
-  1. <br>
-  2. <br>
-  3. <br>
+  1. Right click on drawable folder and create **Vector Assets**
+    ![image](https://user-images.githubusercontent.com/70523057/134816111-9930b272-c115-4c73-90df-cddfbfe1e74c.png)
+  2. Select any one type and click on Clip Art to choose the assets
+    ![image](https://user-images.githubusercontent.com/70523057/134815817-8ce3359d-de63-4e86-b1ab-2e74b19620d3.png)
+  3. Now select your vector
+    ![image](https://user-images.githubusercontent.com/70523057/134815928-a2e3c9ef-e5ef-49f7-9ac9-a5f584b1ad28.png)
+  4. Choose any color you want
+    ![image](https://user-images.githubusercontent.com/70523057/134816006-a841a4df-3e3f-490b-92b0-60ec2b5967ab.png)
+  5. Give name and can Adjust the size
+    ![image](https://user-images.githubusercontent.com/70523057/134816082-bccd6ebf-70ca-4225-b0cc-81f46c76aa0c.png)
+  6. You can see, the file will be saved as the name of ic_add_photo.xml
+    ![image](https://user-images.githubusercontent.com/70523057/134816098-07dcdd5a-9988-4a11-83ce-c92f8c43ed38.png)
+  
+  7. This is how vector xml file looks like:
+  
+     ic_add_photo.xml
+     ```bash
+     <vector xmlns:android="http://schemas.android.com/apk/res/android"
+         android:width="30dp"
+         android:height="30dp"
+         android:tint="#23AE7F"
+         android:viewportWidth="24"
+         android:viewportHeight="24">
+         <path
+             android:fillColor="@android:color/white"
+             android:pathData="M3,4V1h2v3h3v2H5v3H3V6H0V4H3zM6,10V7h3V4h7l1.83,2H21c1.1,0 2,0.9 2,2v12c0,1.1 -0.9,2 -2,2H5c-1.1,0 -2,-0.9 -2,-2V10H6zM13,19c2.76,0 5,-2.24 5,-5s-2.24,-5 -5,-5s-5,2.24 -5,5S10.24,19 13,19zM9.8,14c0,1.77 1.43,3.2 3.2,3.2s3.2,-1.43 3.2,-3.2s-1.43,-3.2 -3.2,-3.2S9.8,12.23 9.8,14z" />
+     </vector>
+     ```
   
