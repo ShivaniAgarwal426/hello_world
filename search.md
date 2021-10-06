@@ -1,0 +1,51 @@
+# search an element in an array #2495
+
+
+Searching Algorithms are designed to check for an element or retrieve an element from any data structure where it is stored. 
+Searching algorithms is a basic, fundamental step in computing done via step-by-step method to locate a specific data among a collection of data.
+
+All search algorithms make use of a search key in order to complete the procedure. And they are expected to return a success or a failure status ( in boolean true or false value).
+
+
+<br><br>
+
+### Definition of Search Algorithm:
+> Any algorithm which solves the search problem, namely, to retrieve information stored within some data structure, or calculated in the search space of a problem domain, either with discrete or continuous values.
+ 
+
+In computer science, there are various type of search algorithms available based on the type of search operation, these algorithms are generally classified into two categories:
+
+1. **Sequential Search:** In this, the list or array is traversed sequentially and every element is checked. 
+    <br>Also known as `Linear Search`.
+2. **Interval Search:**  It is much more efficient than Linear Search algorithm as they repeatedly target the center of the search structure and divide the search space in half. 
+    <br>Also known as `Binary Search`.
+    > **NOTE-**  <br>
+    > These algorithms are specifically designed for searching in sorted data-structures.
+    
+    
+<br><br><br><br>
+           
+## 1. Linear Search
+
+   - Linear search is a very simple search algorithm. 
+   - In this type of search, a sequential search is made over all items one by one. 
+   - Every item is checked and if a match is found then that particular item is returned, otherwise the search continues till the end of the data collection.
+
+ 
+   > **Algorithm:**
+     
+     ```bash
+     
+     Linear Search ( Array A, Value x)
+     
+     Step 1: Set i to 1
+     Step 2: if i > n then go to step 7
+     Step 3: if A[i] = x then go to step 6
+     Step 4: Set i to i + 1
+     Step 5: Go to Step 2
+     Step 6: Print Element x Found at index i and go to step 8
+     Step 7: Print element not found
+     Step 8: Exit
+     ```     
+     
+![linear_search](https://user-images.githubusercontent.com/70523057/136211029-e7396a00-f18a-40f3-b8a5-8380d63574e2.gif)
