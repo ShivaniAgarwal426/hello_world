@@ -33,19 +33,53 @@ In computer science, there are various type of search algorithms available based
 
  
    > **Algorithm:**
+   > 
+   ```bash
+   Linear Search ( Array A, Value x)
+   
+   Step 1: Set i to 1
+   Step 2: if i > n then go to step 7
+   Step 3: if A[i] = x then go to step 6
+   Step 4: Set i to i + 1
+   Step 5: Go to Step 2
+   Step 6: Print Element x Found at index i and go to step 8
+   Step 7: Print element not found
+   Step 8: Exit
+   ```    
+
+   <div align="center"><img src="https://user-images.githubusercontent.com/70523057/136211029-e7396a00-f18a-40f3-b8a5-8380d63574e2.gif" width="450" ></div>
      
-     ```bash
+   > **Example:**
+   > 
+   > _Program:_
+   > 
+   > _Output:_
+   > 
+   > **Time Complexity:**
+  
+  
+  
+  
+  
+## 2. Binary Search
+   - Search a sorted array by repeatedly dividing the search interval in half. 
+   - Begin with an interval covering the whole array. 
+   - If the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half. 
+   - Otherwise, narrow it to the upper half. 
+   - Repeatedly check until the value is found or the interval is empty. 
+  
+   `NOTE:` 
+   :-
+   Binary search method is considered as the best searching algorithms. There are other search algorithms such as the depth-first search algorithm, breadth-first algorithm, etc. The efficiency of a search algorithm is measured by the number of times a comparison of the search key is done in the worst case.
+ 
+  
+  
      
-     Linear Search ( Array A, Value x)
-     
-     Step 1: Set i to 1
-     Step 2: if i > n then go to step 7
-     Step 3: if A[i] = x then go to step 6
-     Step 4: Set i to i + 1
-     Step 5: Go to Step 2
-     Step 6: Print Element x Found at index i and go to step 8
-     Step 7: Print element not found
-     Step 8: Exit
-     ```     
-     
-![linear_search](https://user-images.githubusercontent.com/70523057/136211029-e7396a00-f18a-40f3-b8a5-8380d63574e2.gif)
+   > **Example:**
+   > 
+   > _Program:_
+   > 
+   > _Output:_
+   > 
+   > **Time Complexity:**
+  
