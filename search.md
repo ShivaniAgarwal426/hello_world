@@ -49,14 +49,39 @@ In computer science, there are various type of search algorithms available based
 
    <div align="center"><img src="https://user-images.githubusercontent.com/70523057/136211029-e7396a00-f18a-40f3-b8a5-8380d63574e2.gif" width="450" ></div>
      
-   > **Example:**
+   **Example:**
    > 
    > _Program:_
-   > 
-   > _Output:_
-   > 
-   > **Time Complexity:**
-  
+   ```bash
+   <script>
+   function search(arr, n, x){
+   	let i;
+   	for (i = 0; i < n; i++)
+   		if (arr[i] == x)
+   			return i;
+   	return -1;
+   }
+   
+   // Main code
+   	let array = [ 10, 40, 100, 303, 6, 22 ];
+   	let search_element = 6;
+   	let n = array.length;
+   
+   	// Function call
+   	let result = search(array, n, search_element);
+   	(result == -1) ? document.write("Element is not present in array") : document.write("Element is present at index " + result);
+   
+   </script>
+   ```
+ 
+   > _Output:_  <br>
+   <img src="https://user-images.githubusercontent.com/70523057/136373552-ba9e0478-a8e3-44b0-bdec-ad5bd40f649d.png" width="600" >
+   
+   
+   **Time Complexity:**  <br>
+    1. Best Case - O(1)  <br>
+    2. Average Case - O(n/2)  <br>
+    3. Worst Case - O(n)  <br>
   
   
   
@@ -75,11 +100,11 @@ In computer science, there are various type of search algorithms available based
   
   
      
-   > **Example:**
+   **Example:**
    > 
    > _Program:_
    > 
    > _Output:_
    > 
-   > **Time Complexity:**
+   **Time Complexity:**
   
