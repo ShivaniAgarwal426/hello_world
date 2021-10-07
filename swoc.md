@@ -32,4 +32,25 @@ Replit, Script Foundation & GFG, Digital Ocean, tezos, celo, polygon, filecoin, 
 
 
 
-<a href="https://tezos.com/"><img src="https://user-images.githubusercontent.com/70523057/136421095-6cb38b84-3209-4f7a-93ce-b63aa885eb60.png" width="100"></a>
+<a href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff"><img src="https://user-images.githubusercontent.com/70523057/136421095-6cb38b84-3209-4f7a-93ce-b63aa885eb60.png" width="90"></a>
+
+<a href="https://www.notion.so/Celo-Devfolio-Hackathon-Season-Prize-8b98dac17f134abeae863d5d98c01ff0"><img src="https://user-images.githubusercontent.com/70523057/136422001-187d7c94-c463-4d99-8c8d-cce90fcbf898.png" width="100"></a>
+
+<a href="https://www.notion.so/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c"><img src="https://user-images.githubusercontent.com/70523057/136422235-81361bf0-f8a4-430e-a0f0-0b1ba628abe0.png" width="100"></a>
+
+<a href="https://devfolio.notion.site/Filecoin-Devfolio-Hackathon-Season-Prize-998fc3fe477e474086ae1d5ed1685203"><img src="https://user-images.githubusercontent.com/70523057/136422350-878ae1c9-ac1d-4034-a9ef-09065e27446d.png" width="100"></a>
+
+
+
+
+
+<a href="https://gen.xyz/"><img src="https://user-images.githubusercontent.com/70523057/136423575-bc5a10d5-4e9d-4183-9ac2-53cff9feeee2.png" width="80"></a>
+<a href="https://replit.com/"><img src="https://user-images.githubusercontent.com/70523057/136423474-ce5fa12b-5bdc-4f8f-805c-780615116c4d.png" width="100"></a>
+<a href="https://www.digitalocean.com/"><img src="https://user-images.githubusercontent.com/70523057/136424151-22514796-46dc-4571-8f30-ec86552293da.png" width="100"></a>
+
+### Community Partners by
+<a href="https://gdsc.community.dev/guru-nanak-dev-university-amritsar/"><div align="center"><img src="https://user-images.githubusercontent.com/70523057/136423851-7d683f7f-e724-4d59-8827-8b3f0d848a4a.png" width="400"></div></a>
+
+
+### SWOC provides Internships & Training
+<a href="https://www.linkedin.com/company/internship-training/"><div align="center"><img src="https://user-images.githubusercontent.com/70523057/136423063-c266128d-f760-4e53-9cc7-67a66b29bccb.png" width="400"><br> Click to visit</div></a>
