@@ -2,7 +2,7 @@
 
 <img src="https://user-images.githubusercontent.com/70523057/136416056-eafa4c1f-4684-4a68-9598-2dc8385028b4.png" width="250" align = "right">
 
-### About SWOC
+## About SWOC
 The _**Script Foundation India**_ has developed an open-source program called **Script Winter of Code**.   <br>
 Its goal is to introduce all the students to the world of open source development and demonstrate the power of real-time unified problem-solving. 
 
@@ -14,15 +14,15 @@ Throughout their path, the students will be assisted by experienced mentors and�
 
 <div align="center"><img src="https://user-images.githubusercontent.com/70523057/136418001-6e9e0ffe-7a12-42b0-921f-cacd65413c7e.png" width="750"></div>
 
-<br><br><br>
+<br>
 
 ### Registration for
 1. [Paticipants](https://devfolio.co/swoc/dashboard)
 2. [Mentors](https://jaisadana673401.typeform.com/to/p8Q0UJ51?typeform-source=swoc.scriptindia.org)
 
-<br><br><br>
+<br>
 
-### Prizes And Rewards
+## Prizes And Rewards
 For **_`top 3 Contributors`_** - 
 Exciting Opportunity & Prizes by 
 - Replit, 
@@ -60,7 +60,7 @@ Exciting Opportunity & Prizes by
 
 <br><br><br>
 
-### Overview
+## Overview
 > The open source initiative Script Winter Of Code runs for three months.   <br>
 > All selected participants will have the opportunity to work on a variety of innovative projects under the supervision of experienced Mentors as part of the process.
 
