@@ -8,22 +8,19 @@ Its goal is to introduce all the students to the world of open source developme
 
 Throughout their path, the students will be assisted by experienced mentors and supervisors.They will learn the skills essential in the world of programming, all the while developing a thorough understanding for the world of open-source.
 
+<br><br><br>
+
 ### Timeline of Program to Contribute
 
 <div align="center"><img src="https://user-images.githubusercontent.com/70523057/136418001-6e9e0ffe-7a12-42b0-921f-cacd65413c7e.png" width="750"></div>
 
+<br><br><br>
 
 ### Registration for
 1. [Paticipants](https://devfolio.co/swoc/dashboard)
 2. [Mentors](https://jaisadana673401.typeform.com/to/p8Q0UJ51?typeform-source=swoc.scriptindia.org)
 
-
-
-### Overview
-The open source initiative Script Winter Of Code runs for three months. All selected participants will have the opportunity to work on a variety of innovative projects under the supervision of experienced Mentors as part of the process.
-
-During the Community Bonding Period, participants can choose a project based on their interests and tech stack, and can communicate with mentors or project admin to learn more about the project.
-
+<br><br><br>
 
 ### Prizes And Rewards
 For **_`top 3 Contributors`_** - 
@@ -51,10 +48,21 @@ Exciting Opportunity & Prizes by
 <a href="https://www.digitalocean.com/"><img src="https://user-images.githubusercontent.com/70523057/136424151-22514796-46dc-4571-8f30-ec86552293da.png" width="180"></a>
 </div>
   
-  
+ <br><br><br>
+ 
 ### Community Partners by
 <a href="https://gdsc.community.dev/guru-nanak-dev-university-amritsar/"><div align="center"><img src="https://user-images.githubusercontent.com/70523057/136423851-7d683f7f-e724-4d59-8827-8b3f0d848a4a.png" width="400"></div></a>
 
+<br><br><br>
 
 ### SWOC provides Internships & Training
 <a href="https://www.linkedin.com/company/internship-training/"><div align="center"><img src="https://user-images.githubusercontent.com/70523057/136423063-c266128d-f760-4e53-9cc7-67a66b29bccb.png" width="400"><br> Click to visit</div></a>
+
+<br><br><br>
+
+### Overview
+> The open source initiative Script Winter Of Code runs for three months.   <br>
+> All selected participants will have the opportunity to work on a variety of innovative projects under the supervision of experienced Mentors as part of the process.
+
+
+> During the Community Bonding Period, participants can choose a project based on their interests and tech stack, and can communicate with mentors or project admin to learn more about the project.
