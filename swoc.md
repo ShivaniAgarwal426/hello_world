@@ -29,3 +29,7 @@ During the Community Bonding Period, participants can choose a project based on 
 For **_`top 3 Contributors`_** - 
 - Exciting Opportunity & Prizes by 
 Replit, Script Foundation & GFG, Digital Ocean, tezos, celo, polygon, filecoin, etc.
+
+
+
+<a href="https://tezos.com/"><img src="https://user-images.githubusercontent.com/70523057/136421095-6cb38b84-3209-4f7a-93ce-b63aa885eb60.png" width="100"></a>
