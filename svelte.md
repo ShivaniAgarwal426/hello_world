@@ -1,9 +1,5 @@
 # 6.29 Explain everything related to Svelte 
 
-https://svelte.dev/tutorial/basics   <br>
-https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_getting_started
-
-
 ## About SVELTE?
 <img src="https://user-images.githubusercontent.com/70523057/136572595-f97910e5-3cbc-473a-937f-aaf948cb3d29.png" width="300" align = "right">
 
