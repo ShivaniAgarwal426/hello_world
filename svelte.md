@@ -1,4 +1,4 @@
-# 
+# 6.29 Explain everything related to Svelte 
 
 https://svelte.dev/tutorial/basics   <br>
 https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_getting_started
@@ -13,10 +13,9 @@ Instead of using techniques like virtual DOM diffing, Svelte writes code that su
 
 Svelte was recently voted the  with the [most loved **web framework**](https://insights.stackoverflow.com/survey/2021#section-most-loved-dreaded-and-wanted-web-frameworks) in [most **experienced developers**](https://2020.stateofjs.com/en-US/technologies/front-end-frameworks/) a pair of industry surveys.
 
-<button name="button" onclick="http://www.google.com">Click me</button>
 
 
-<div><a href="https://svelte.dev/tutorial"><img src="https://user-images.githubusercontent.com/70523057/136574613-681eadc3-5932-41d0-8d9a-93d3aa3dab27.png" height="50"><em><strong>Learn more...</strong></em></a></div>
+<div><a href="https://svelte.dev/tutorial"><em><strong>Learn more...</strong></em></a></div>
 
 <br><br>
 ## What is SVELTE?
@@ -31,12 +30,43 @@ Svelte was recently voted the  with the [most loved **web framework**](https://i
 <br><br>
 
 ## How its works?
-https://dev.to/zev/how-does-svelte-actually-work-part-1-j9m
-https://dev.to/joshnuss/svelte-compiler-under-the-hood-4j20
+Most front-end frameworks rely on a diffing engine that syncs the visual DOM with an in-memory copy of the DOM.
 
-The 'hello world' example in the code editor is a simple component.
-## USES:
+**Svelte is different. It's a compiler.** It generates code (JavaScript) that updates the visual tree directly, without diffing.
 
+_Think of it as converting html like `<h1>Hello World</h1>` into:_
+
+```bash
+const element = document.createElement('h1')
+element.textContent = "Hello World"
+document.body.appendChild(element)
+```
+> Now, why would you want to do that?
+> **Because of data binding.**
+
+It means we can write `<h1>{someValue}</h1>` declaratively and and we don't need to write imperative statements like `element.textContent = someValue` every time someValue changes.     <br>
+Svelte generates the synchronization code for us.     <br>
+
+The compiler takes in `.svelte` files, parses them into an **AST Abstract Syntax Tree**, **analyzes the tree**, and **generates Javascript and CSS**.
+
+**You can try the Online Svelte Compiler**
+<div align="center"><a href="https://svelte.dev/tutorial/"><table><tr><td><img src="https://user-images.githubusercontent.com/70523057/136598955-6fff83f0-cded-43a0-a752-88d038cd291b.png" width="800"><td><tr><table></a></div>
+  
+<div align="left">    <br>
+  
+## USES
+  Let us see what are the advantages Svelte offers:
+  - Compiler
+  - Lightweight & Performant
+  - Less boilerplate
+  - Truly reactive
+  - Low learning knowledge required
+  - Built-in animations and effects
+  - Built-in Reactive store
+  - Multiple output targets (Svelte supports server-side rendering out of the box by providing a compiler mode for it.)
+  
 ## Summary
 - Svelte is a compiler that parses `.svelte` files, analyzes them and then generates a JavaScript file. 
 - The JavaScript file contains the logic to mount the component, handle events, and patch the DOM when values change.
+
+</div>
