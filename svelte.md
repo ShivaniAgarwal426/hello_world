@@ -1,5 +1,7 @@
 # 
 
+https://svelte.dev/tutorial/basics
+
 
 ## About SVELTE?
 <img src="https://user-images.githubusercontent.com/70523057/136572595-f97910e5-3cbc-473a-937f-aaf948cb3d29.png" width="300" align = "right">
