@@ -48,3 +48,12 @@ Use these properties to customize the appearance of the `CardView` widget:
    <div align="center"><table><tr><td>
       <img src="https://user-images.githubusercontent.com/70523057/135032021-dfc62b6e-4cdd-470f-8c45-edb972a5f442.jpg" width="240" >
    </td></tr></table></div> 
+
+<br><br>
+
+## Applications
+- Use in the list layout item of RecyclerView
+- Use inside the ViewPager
+- Use in layout without creating resource drawable file. 
+
+
