@@ -41,13 +41,66 @@ Use these properties to customize the appearance of the `CardView` widget:
 - After adding dependencies, now we will will create a simple CardView.    <br>
   Navigate to **app>res>layout>activity_main.xml** then create new CardView widget to it. 
   ```bash
+  <?xml version="1.0" encoding="utf-8"?>
+  <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="8dp"
+      android:backgroundTint="#EDD4BF"
+      android:elevation="2dp"
+      app:cardCornerRadius="6dp"
+      app:cardElevation="2dp"
+      tools:context=".MainActivity">
+  
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="8dp">
+  
+          <ImageView
+              android:id="@+id/image"
+              android:layout_width="100dp"
+              android:layout_height="100dp"
+              android:scaleType="fitXY"
+              android:src="@drawable/sunflower" />
+  
+          <TextView
+              android:id="@+id/headingText"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp"
+              android:layout_toRightOf="@id/image"
+              android:text="Sunflower"
+              android:textColor="@color/black"
+              android:textSize="20dp"
+              android:textStyle="bold" />
+  
+          <TextView
+              android:id="@+id/discriptionText"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/headingText"
+              android:layout_marginLeft="10dp"
+              android:layout_toRightOf="@id/image"
+              android:text="“A sunflower field is like a sky with a thousand suns.” \n - William Cullen Bryant " />
+  
+      </RelativeLayout>
+  
+  </androidx.cardview.widget.CardView>
   
   ```
   
 - Run your app on your Emulator or Android device
-   <div align="center"><table><tr><td>
-      <img src="https://user-images.githubusercontent.com/70523057/135032021-dfc62b6e-4cdd-470f-8c45-edb972a5f442.jpg" width="240" >
-   </td></tr></table></div> 
+   <div align="center"><table>
+    <tr><td><img src="https://user-images.githubusercontent.com/70523057/136668768-a93d9fbd-1411-4294-a4c1-c283915cd1eb.jpg" width="240" ></td>
+    </tr></table></div> 
+    
+    <div align="center"><table>
+    <tr>
+    <td><img src="https://user-images.githubusercontent.com/70523057/136669037-66d28351-8d5b-430f-a313-68ae5fb704e6.jpg" width="600" ></td>
+    </tr></table></div> 
 
 <br><br>
 
