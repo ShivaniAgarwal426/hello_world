@@ -1,4 +1,4 @@
-# 6.29 Explain everything related to Svelte 
+<div align="center"><h1> 6.29 Explain everything related to Svelte  </h1></div>
 
 ## About SVELTE?
 <img src="https://user-images.githubusercontent.com/70523057/136572595-f97910e5-3cbc-473a-937f-aaf948cb3d29.png" width="300" align = "right">
@@ -14,6 +14,7 @@ Svelte was recently voted the  with the [most loved **web framework**](https://i
 <div><a href="https://svelte.dev/tutorial"><em><strong>Learn more...</strong></em></a></div>
 
 <br><br>
+
 ## What is SVELTE?
 - Svelte is a free and open-source front end tool for building **fast web applications**.
 - It is similar to JavaScript frameworks such as React and Vue, which share a goal of making it easy to build slick interactive user interfaces.
@@ -23,6 +24,7 @@ Svelte was recently voted the  with the [most loved **web framework**](https://i
 - You can build your entire app with Svelte, or you can add it incrementally to an existing codebase. 
 - You can also ship components as standalone packages that work anywhere, without the overhead of a dependency on a conventional framework.
 - In Svelte, an application is composed from one or more components. <br> A component is a reusable self-contained block of code that encapsulates **`HTML`**, **`CSS`** and **`JavaScript`** that belong together, written into a `.svelte` file.
+
 <br><br>
 
 ## How its works?
@@ -60,6 +62,8 @@ The compiler takes in `.svelte` files, parses them into an **AST Abstract Syntax
   - Built-in animations and effects
   - Built-in Reactive store
   - Multiple output targets (Svelte supports server-side rendering out of the box by providing a compiler mode for it.)
+  
+  <br><br>
   
 ## Summary
 - Svelte is a compiler that parses `.svelte` files, analyzes them and then generates a JavaScript file. 
